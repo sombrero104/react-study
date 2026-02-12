@@ -671,7 +671,8 @@ function useInput() {
 ~~~
 <br/><br/>
 
-# 카운터 앱 만들기 
+## 카운터 앱 만들기 
+'section06' 프로젝트를 생성한다. <br/>
 
 ~~~
 cd ~/IdeaProjects/react-study
@@ -693,7 +694,27 @@ Ok to proceed? (y) y
   npm install
   npm run dev
 ~~~
+
+아래와 같이 설정해 준다. <br/>
+
+##### [eslint.config.js]
+~~~
+    rules: {
+      'no-unused-vars': 'off', // 사용되지 않는 변수가 있으면 경고 또는 오류를 내는 규칙.
+      'react/prop-types': 'off', // PropTypes를 안 써도 ESLint가 경고하지 않음.
+                                // (PropTypes는 컴포넌트가 받는 props의 타입을 체크하는 도구.)
+    },
+~~~
+
+사용하지 않는 파일 및 코드들을 삭제해서 초기화 한다.
+- public/vite.svg 파일 삭제.
+- src/assets/react.svg 파일 삭제. 
+- 'src/App.jsx' 파일의 App() 리턴문 내용 삭제.
+- 'src/App.css', 'src/index.css' 파일 내용 삭제.
+- 'src/main.jsx' 파일 내용 중 <StrictMode> 태그 삭제. 
+
 <br/><br/>
+
 
 
 
