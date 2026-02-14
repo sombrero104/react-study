@@ -862,6 +862,45 @@ chrome 웹 스토어에서 'React Development Tools' 확장 프로그램 추가.
 
 <br/><br/>
 
+## Todo List 앱 만들기 
+
+~~~
+% npm create vite@latest
+
+> npx
+> create-vite
+
+│
+◇  Project name:
+│  section08
+│
+◇  Select a framework:
+│  React
+│
+◇  Select a variant:
+│  JavaScript
+│
+◇  Use Vite 8 beta (Experimental)?:
+│  No
+│
+◇  Install with npm and start now?
+│  No
+│
+◇  Scaffolding project in /Users/mac/IdeaProjects/react-study/section08...
+│
+└  Done. Now run:
+
+  cd section08
+  npm install
+  npm run dev
+~~~
+
+
+
+
+
+<br/><br/>
+
 
 
 
