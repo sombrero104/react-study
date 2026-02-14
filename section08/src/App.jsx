@@ -8,19 +8,19 @@ const mockData = [
     {
         id: 0,
         isDone: false,
-        content: "React 공부하기",
+        content: "React 공부하기 1",
         date: new Date().getTime(),
     },
     {
         id: 1,
         isDone: false,
-        content: "React 공부하기",
+        content: "React 공부하기 2",
         date: new Date().getTime(),
     },
     {
         id: 2,
         isDone: false,
-        content: "React 공부하기",
+        content: "React 공부하기 3",
         date: new Date().getTime(),
     }
 ];
@@ -44,7 +44,7 @@ function App() {
         <div className="App">
             <Header />
             <Editor onCreate={onCreate} /> {/* Props로 onCreate를 전달한다. */}
-            <List />
+            <List todos={todos} />
         </div>
     )
 }
